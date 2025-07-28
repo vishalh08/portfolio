@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <!-- Theme toggle button -->
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Toggle theme"
+    >
+      🌓
+    </button>
+    <!-- Header section -->
+    <header class="container">
+      <div class="container">
+        <h1>Vishal Hagargundgi</h1>
+        <nav>
+          <a href="#work">Projects</a>
+          <a href="#about">About Me</a>
+          <a
+            href="#contact"
+            class="button"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+    <!-- Hero section -->
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Welcome to my portfolio</h1>
+        <p>
+          Hi, I'm Vishal! Welcome to my space where I showcase my projects,
+          passions, and connect with like-minded people. Feel free to explore my
+          work, and don't hesitate to reach out if you'd like to discuss ideas,
+          collaborate, or just chat!
+        </p>
+        <a
+          href="#contact"
+          class="button"
+          >Contact</a
+        >
+      </div>
+      <div class="hero-image">
+        <img
+          src="hero-png.png"
+          alt="Hero Image"
+        />
+      </div>
+    </section>
+    <!-- About section -->
+    <section
+      class="about container"
+      id="about"
+    >
+      <div class="about-content">
+        <h2>About Me</h2>
+        <!-- Multiple paragraphs describing background and expertise -->
+        <p>
+          I'm Vishal, a highly motivated and results-driven software engineer
+          with a strong background in developing cutting-edge software
+          solutions. I've had the privilege of working on a diverse range of
+          projects, each contributing to my growth and expertise in this
+          ever-evolving field.
+        </p>
+        <p>
+          My journey into the world of technology started with a fascination for
+          computer science and problem-solving. From a young age, I was drawn to
+          the allure of coding and the potential it held to transform ideas into
+          functional software. Over the years, I've nurtured this passion and
+          turned it into a thriving career that continues to inspire me each
+          day.
+        </p>
+        <p>
+          My technical expertise extends beyond programming. I have a knack for
+          database design and management, ensuring data is organized,
+          accessible, and secure. My problem-solving skills are finely tuned,
+          and I relish the challenge of crafting elegant solutions to complex
+          issues. I'm also experienced in algorithm design, applying efficient
+          algorithms to optimize system performance and user experiences.
+        </p>
+        <p>
+          Technology is an ever-evolving landscape, and I'm committed to staying
+          at the forefront. Continuous learning and adaptation are not just part
+          of my job but a way of life. I constantly seek out the latest industry
+          trends and emerging technologies, experimenting with new tools and
+          frameworks, and honing my skills to deliver state-of-the-art solutions
+          for my clients and users.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section
+      class="skills container"
+      id="skills"
+    >
+      <h2>Skills</h2>
+      <!-- Skills carousel -->
+      <div class="skills-carousel">
+        <button
+          class="carousel-btn prev"
+          id="prevBtn"
+        >
+          ❮
+        </button>
+        <div class="skills-track">
+          <div class="skills-grid">
+            <!-- Individual skill items -->
+            <div class="skill-item">
+              <img
+                src="image/Babel.svg"
+                alt="Babel"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/Bootstrap.svg"
+                alt="Bootstrap"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/C.svg"
+                alt="C"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/CPP.svg"
+                alt="CPP"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/CSS.svg"
+                alt="CSS"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/Git.svg"
+                alt="Git"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/HTML.svg"
+                alt="HTML"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/Illustrator.svg"
+                alt="Illustrator"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/JavaScript.svg"
+                alt="JavaScript"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/JQuery.svg"
+                alt="JQuery"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image/Photoshop.svg"
+                alt="Photoshop"
+                class="skill-icon"
+              />
+            </div>
+            <div class="skill-item">
+              <img
+                src="image//TypeScript.svg"
+                alt="TypeScript"
+                class="skill-icon"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-btn next"
+          id="nextBtn"
+        >
+          ❯
+        </button>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section
+      class="portfolio container"
+      id="work"
+    >
+      <h2>Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <h3>Drexel Marketplace</h3>
+          <p>
+            Drexel Marketplace is an online platform that connects the Drexel
+            University community for buying and selling goods and services in a
+            secure and efficient environment.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Wearable Knee Monitoring</h3>
+          <p>
+            Wearable Knee Monitoring is a system that uses wearable devices to
+            track and analyze the movement and health of the knee joint,
+            providing real-time data for rehabilitation or injury prevention.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <h3>IoT Temperature Monitoring</h3>
+          <p>
+            IoT Temperature Monitoring is a system that uses Internet of Things
+            technology to track and manage temperature data remotely for various
+            applications like environmental control and equipment monitoring.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <h3>QUIC FTP <br />Server</h3>
+          <p>
+            QUIC FTP Server is a file transfer server that utilizes the QUIC
+            protocol to provide faster and more secure data transmission
+            compared to traditional FTP methods.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section
+      class="contact container"
+      id="contact"
+    >
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p>
+          If you wish to get in touch with me, please don't hesitate to use the
+          contact details provided below. I warmly welcome your feedback,
+          questions, or any other inquiries.
+        </p>
+        <div class="contact-container">
+          <form
+            id="contactForm"
+            onsubmit="return validateForm(event)"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="button"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container">
+      <p>&copy; 2025 Vishal Hagargundgi</p>
+    </footer>
+    <!-- Back to top button -->
+    <button
+      id="back-to-top"
+      class="back-to-top"
+    >
+      🔝
+    </button>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
