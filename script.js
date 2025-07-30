@@ -8,7 +8,7 @@ const getPreferredTheme = () => {
     (prefersDarkScheme.matches ? "dark" : "light")
   );
 };
-document.getElementById("contact-form").addEventListener("submit", validateForm);
+
 const applyTheme = (theme) => {
   document.documentElement.setAttribute("data-theme", theme);
   themeToggle.innerHTML = theme === "dark" ? "☀︎" : "🌙";
@@ -139,7 +139,7 @@ const showError = (element, message) => {
   errorDiv.textContent = message;
   element.parentElement.appendChild(errorDiv);
 };
-
+document.getElementById("contact").addEventListener("submit", validateForm);
 // Skills Carousel Functionality
 document.addEventListener("DOMContentLoaded", () => {
   const track = document.querySelector(".skills-grid");
