@@ -91,7 +91,12 @@ const validateForm = (event) => {
   });
 
   if (isValid) {
-    console.log("Form is valid");
+    const subject = encodeURIComponent("New Contact Form Submission");
+    const body = encodeURIComponent(
+      `Name: ${fields.name.value.trim()}\nEmail: ${fields.email.value.trim()}\n\n${fields.message.value.trim()}`
+    );
+    const mailtoLink = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+    window.location.href = mailtoLink;
   }
 
   return isValid;
