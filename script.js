@@ -8,7 +8,7 @@ const getPreferredTheme = () => {
     (prefersDarkScheme.matches ? "dark" : "light")
   );
 };
-
+document.getElementById("contact-form").addEventListener("submit", validateForm);
 const applyTheme = (theme) => {
   document.documentElement.setAttribute("data-theme", theme);
   themeToggle.innerHTML = theme === "dark" ? "☀︎" : "🌙";
