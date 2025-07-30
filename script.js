@@ -95,7 +95,7 @@ const validateForm = (event) => {
     const body = encodeURIComponent(
       `Name: ${fields.name.value.trim()}\nEmail: ${fields.email.value.trim()}\n\n${fields.message.value.trim()}`
     );
-    const mailtoLink = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:vishalh08@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
   }
 
